@@ -7,12 +7,23 @@ body {
   width: 100vw;
   height: 100vh;
   background: rgb(89, 133, 255);
-  background: linear-gradient(
-    308deg,
-    rgba(89, 133, 255, 1) 6%,
-    rgba(84, 237, 245, 1) 37%,
-    rgba(255, 229, 0, 1) 66%,
-    rgba(255, 0, 97, 1) 100%
-  );
+  background: rgb(255,112,209);
+  background: linear-gradient(157deg, rgba(255,112,209,1) 0%, rgba(83,243,255,1) 100%);
 }
 
+.content{
+    height: 25rem;
+}
+
+input{
+    background-color: rgba(241, 241, 241, 0.586) !important;
+}
+
+.input-group-text{
+    border: none !important;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.form-control{
+    border: none !important;
+}
